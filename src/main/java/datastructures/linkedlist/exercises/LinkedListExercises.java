@@ -1,6 +1,6 @@
 package datastructures.linkedlist.exercises;
 
-class Ejercicios<T extends Comparable<T>> {
+class LinkedListExercises<T extends Comparable<T>> {
 
     public static <T extends Comparable<T>> boolean search(LinkedList<T> List, T elemento){
         Nodo<T> nodocurrent = List.head;
