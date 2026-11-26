@@ -1,6 +1,6 @@
 package datastructures.avl.gui;
 
-import datastructures.avl.avl.AVLTree;
+import datastructures.avl.AVLTree;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.WindowAdapter;

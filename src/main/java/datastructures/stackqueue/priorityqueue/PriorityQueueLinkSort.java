@@ -1,7 +1,7 @@
 package datastructures.stackqueue.priorityqueue;
 
 import datastructures.stackqueue.node.Node;
-import datastructures.stackqueue.exceptionisempty.ExceptionIsEmpty;
+import datastructures.stackqueue.exceptions.ExceptionIsEmpty;
 
 public class PriorityQueueLinkSort<E, N extends Comparable<N>> implements PriorityQueue<E, N> {
     class EntryNode {

@@ -1,5 +1,5 @@
 package datastructures.stackqueue.priorityqueue;
-import datastructures.stackqueue.exceptionisempty.ExceptionIsEmpty;
+import datastructures.stackqueue.exceptions.ExceptionIsEmpty;
 
 public interface PriorityQueue<E, N> {
 	void enqueue(E x, N pr);

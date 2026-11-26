@@ -1,5 +1,5 @@
 package datastructures.stackqueue.queue;
-import datastructures.stackqueue.exceptionisempty.ExceptionIsEmpty;
+import datastructures.stackqueue.exceptions.ExceptionIsEmpty;
 
 public interface Queue<E> {
     void enqueue(E e);

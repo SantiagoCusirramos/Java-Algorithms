@@ -1,5 +1,5 @@
 package datastructures.stackqueue.stack;
-import datastructures.stackqueue.exceptionisempty.ExceptionIsEmpty;
+import datastructures.stackqueue.exceptions.ExceptionIsEmpty;
 
 public class ArrayStack<E> implements Stack<E> {
     private E[] stack;

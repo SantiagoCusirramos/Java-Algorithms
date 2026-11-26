@@ -1,6 +1,6 @@
 package datastructures.stackqueue.stack;
 import datastructures.stackqueue.node.Node;
-import datastructures.stackqueue.exceptionisempty.ExceptionIsEmpty;
+import datastructures.stackqueue.exceptions.ExceptionIsEmpty;
 
 public class LinkedStack<E> implements Stack<E> {
 	private Node<E> stack;

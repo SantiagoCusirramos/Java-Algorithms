@@ -1,7 +1,7 @@
 package datastructures.stackqueue.priorityqueue;
 
 import datastructures.stackqueue.queue.LinkedQueue;
-import datastructures.stackqueue.exceptionisempty.ExceptionIsEmpty;
+import datastructures.stackqueue.exceptions.ExceptionIsEmpty;
 
 public class PriorityQueueLinked<E, N extends Number> implements PriorityQueue<E, N> {
 

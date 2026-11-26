@@ -1,4 +1,4 @@
-package BinarySearch;
+package searching.binarysearch;
 
 public class BinarySearch {
 	int binarySearch(int arr[], int lo, int hi, int x)
